@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+    background-color: #fefefe;
+}
+.logo{
+    width: 80px;
+    border-radius: 50%;
+}
+.nav_bar
+{
+ background-color: #fefefe;
+}
+h3{
+   margin-top: 20px !important;
+   margin-bottom: 20px !important; 
+   text-align: center;
+}
+.first_item{
+    text-align: -webkit-center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-wrapper {
+    background-color: rgb(220, 252, 231); /* Color de fondo para la sección */
+    padding: 50px 0; /* Padding vertical para la sección */
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 0 20px; /* Padding horizontal */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las columnas */
+    align-items: center;
+}
+
+.card {
+    background-color: white; /* Fondo blanco para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados para las tarjetas */
+    box-shadow: 0 2px 5px rgb(132, 248, 172) !important; /* Sombra suave */
+    padding: 0px; /* Padding interno para las tarjetas */
+    width: 100%; /* Ancho completo dentro del contenedor */
+    box-sizing: border-box; /* Incluir padding en el ancho */
+
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para los SVG dentro de las tarjetas */
+.card svg {
+    fill: rgb(34, 197, 94, 0.85); /* Color verde con opacidad */
+    height: 24px;
+    width: 24px;
+    margin-right: 0.75rem;
+}
+.cardsevent{
+    padding: 0px !important;
+}
+
+#carouselAutoplaying {
+    max-width: 100%; /* Ancho máximo del carousel */
+    margin: 0 auto; /* Centrar el carousel horizontalmente */
+}
+
+/* Estilos para las imágenes dentro del carousel */
+.carousel-item img {
+    width: 100%; /* Ancho del 70% del contenedor del carousel */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Para asegurar que la imagen sea tratada como bloque */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    max-width: 800px; /* Ancho máximo de 800px */
+}
+
+.sectionevents{
+    margin-top: 3rem;
+}
+@media (max-width: 768px) {
+    /* Estilos específicos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+    .carousel-item img {
+        width: 100%; /* Ancho del 90% del contenedor del carousel en pantallas pequeñas */
+        max-width: 100%; /* Ancho máximo del 100% del viewport width en pantallas pequeñas */
+    }
+}
